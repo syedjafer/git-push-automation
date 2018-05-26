@@ -23,7 +23,7 @@ Then you will get a token . <b> Make sure you copy it some where . </b> bcoz its
 Hurray !! You got the Token . 
 
 ### Cooking Procedure . 
-1. Open gitAutomatePush.py file . 
+1. Open gitAutoPush.py file . 
 2. Edit all the necessary details such as , 
 
 
