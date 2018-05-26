@@ -3,11 +3,11 @@ import os
 class Dinosar(object):
     def __init__(self):
         self._cachedStamp = 0
-        self.filename = 'tes_file.txt'
+        self.filename = 'tes_file.txt' # Your file name 
         self.git_repo_name = 'gitAutomatePush' #Do not include .git extension
-        self.git_user_name = 'syedjafer'
-        self.git_oauth_token = '<Your Auth Token>'
-        self.git_commit_msg = 'Update the file'
+        self.git_user_name = 'syedjafer' # username 
+        self.git_oauth_token = '<Your Auth Token>' # Your Auth Token
+        self.git_commit_msg = 'Update the file' # Your Commit Message
 
     def gitAuth(self):
         timeStamp = os.stat(self.filename).st_mtime
